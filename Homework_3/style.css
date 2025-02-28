@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 50px;
+}
+
+#timer {
+    font-size: 2em;
+    margin: 20px;
+    font-weight: bold;
+}
+
+#timeInput {
+    padding: 10px;
+    font-size: 1em;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+#startBtn {
+    background-color: green;
+    color: white;
+}
+
+#resetBtn {
+    background-color: red;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
