@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px;
+}
+
+#postContainer {
+    width: 60%;
+    margin: auto;
+    text-align: left;
+}
+
+.post {
+    height: 200px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+#loading {
+    font-size: 18px;
+    font-weight: bold;
+}
+
